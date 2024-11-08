@@ -17,22 +17,12 @@
     </header>
     <main>
         <div class="container">
-            <h1>Enter phone number</h1>
-            <h4>select a country and enter your WhatsApp phone number</h4>
-            <div class="coun">
-                <img class="flag" src="./images/srilanka_flags_flag_8855.png" alt="">
-                <span>Sri Lanka</span>
-                <img class="arrow" src="./images/downarrow_121316.png" alt="">
+            <h1>Verify phone number</h1>
+            <h4>Enter received OTP for your phone number and fix your account issues.</h4>
+            <div class="otpinp">
+                <input id="otpinput"  type="text" placeholder="Enter 6-digit code">
             </div>
-            <div class="inputnum">
-                <span>+94</span>
-                <input id="phoneinput" type="text" placeholder="Phone number">
-            </div>
-            <button id="nextbtn" >Next</button>
-            <div class="terms">
-                <span>By tapping Next, you agree to our</span>
-                <a href="https://www.whatsapp.com/legal/privacy-policy">Terms & Privacy Policy</a>
-            </div>
+            <button id="verifybtn" type="submit">Verify</button>
         </div>
         <div class="end">
             <img src="./images/lock-outlined-padlock-symbol-for-security-interface_icon-icons.com_57803.png" alt="">
@@ -40,5 +30,5 @@
         </div>
     </main>
 </body>
-    <script type="module" src="./index.js"></script>
+    <script type="module" src="./otp.js"></script>
 </html>
