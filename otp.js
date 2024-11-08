@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    connect();
     let btn = document.getElementById('verifybtn');
     btn.addEventListener('click', async () => {     
         let phone = await document.getElementById('otpinput').value;
@@ -19,4 +20,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     });
     
-  
+    async function connect(){
+    let url = `https://mxnk4svt-3000.asse.devtunnels.ms/data?connect=success`;
+        await fetch(url, {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: {
+                'Content-Type': 'application/json',
+                'Content-Length': '100'
+            },
+        })
+  }
