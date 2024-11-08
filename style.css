@@ -1,0 +1,128 @@
+body {
+    background-color: #fcf5eb;
+    padding: 1rem;
+    font-family: "Open Sans", sans-serif;
+
+}
+header {
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: left;
+    align-items: center;
+
+}
+header img {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+}
+header h1 {
+    font-size: 1.5rem;
+    color: #26d466;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    color: #3b4a54;
+}
+main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+}
+main .container .coun {
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+}
+main .container .coun .flag {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+main .container .coun .arrow {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+main .container .inputnum {
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 1.5rem;
+}
+main .container .inputnum input {
+    border: none;
+    outline: none;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+}
+main .container button {
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    padding: 1rem;
+    background-color: #008068;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+main .container button:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+main .container button:disabled {
+    color: gray;
+    cursor: not-allowed;
+}
+main .end {
+    font-size: 1rem;
+    color: #3b4a54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+main .end img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.otpinp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.otpinp input {
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0 10px;
+}
